@@ -49,6 +49,42 @@ function addStar() {
 
 Array(200).fill().forEach(addStar)
 
+const spaceTexture = new THREE.TextureLoader().load('/public/stars-2643089_1280.jpg')
+scene.background = spaceTexture
+
+
+// Avatar
+const mubiTexture = new THREE.TextureLoader().load('/public/IMG-20230312-WA0000.jpg')
+
+
+const mubi = new THREE.Mesh(
+  new THREE.BoxGeometry(3,3,3),
+  new THREE.MeshBasicMaterial({
+    map: mubiTexture
+  })
+ )
+
+ scene.add(mubi)
+
+
+// Moon
+
+const moonTexture = new THREE.TextureLoader().load('/public/beautiful-glowing-gray-full-moon.jpg')
+const normalTexture = new THREE.TextureLoader().load('/public/black-white-details-moon-texture-concept (1).jpg')
+const moon = new THREE.Mesh(
+  new THREE.SphereGeometry(3, 32, 32),
+  new THREE.MeshStandardMaterial( {
+    map: moonTexture,
+    normalMap: normalTexture
+  })
+)
+
+scene.add(moon)
+
+
+
+
+
   function animate() {
     requestAnimationFrame(animate)
 
