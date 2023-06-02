@@ -1,7 +1,39 @@
-# Vue 3 + Vite
+## Portfolio Test Project
+This is a portfolio test project showcasing my skills in web development using Vue.js and Three.js. The project aims to create an interactive and visually appealing portfolio website.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Technologies Used
+Vue.js: A JavaScript framework for building user interfaces.
+Three.js: A JavaScript library for creating 3D graphics and animations.
+HTML5: Markup language for structuring and presenting content on the web.
+CSS3: Cascading Style Sheets for styling the website.
+JavaScript: Programming language used for adding interactivity to the website.
+Git: Version control system for tracking changes in the project.
+Installation
 
-## Recommended IDE Setup
+### Clone the repository:
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+git clone https://github.com/your-username/portfolio-test-project.git
+
+Navigate to the project directory:
+
+cd portfolio-test-project
+
+Install the dependencies:
+
+npm install
+
+Start the development server:
+
+npm run serve
+
+## Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+Vue.js
+Three.js
+Contact
+#### If you have any questions or feedback regarding this project, please feel free to reach out to me at shabbirmuhammad2000@gmail.com
